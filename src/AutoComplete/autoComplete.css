@@ -1,0 +1,30 @@
+.searchContainer {
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+.searchBar {
+  display: flex;
+}
+
+.suggestions {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.suggestions:empty {
+  border: none;
+}
+
+.suggestions-item {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}
+
+.active {
+  background-color: black;
+  color: beige;
+}

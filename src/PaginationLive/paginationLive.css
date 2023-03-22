@@ -1,0 +1,29 @@
+.pagination {
+  background-color: bisque;
+  display: flex;
+  height: 32vh;
+  overflow: scroll;
+  padding: 3rem;
+  flex-direction: column;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
+.pageNumbers {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.pageNumber:hover {
+  background: black;
+  color: white;
+}
+
+.active {
+  background: black;
+  color: white;
+}

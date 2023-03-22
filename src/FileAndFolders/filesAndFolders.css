@@ -1,0 +1,21 @@
+.filesAndFolders {
+  background-color: bisque;
+  display: flex;
+  height: 20vh;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.loadingSpinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paddingFile {
+  padding-left: 25px;
+}

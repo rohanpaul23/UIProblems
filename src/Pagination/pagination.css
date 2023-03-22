@@ -1,0 +1,48 @@
+.infinite_scroll {
+  background-color: bisque;
+  display: flex;
+  height: 20vh;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.loadingSpinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 2rem;
+}
+
+.pageNumber {
+  padding: 10px;
+}
+
+.noItems {
+  display: flex;
+
+  flex: 0;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.pageNumber:hover {
+  background: aqua;
+}
+
+.active {
+  background: black;
+}
+
+.itemDescription {
+  display: flex;
+}

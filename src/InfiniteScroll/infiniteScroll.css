@@ -1,0 +1,16 @@
+.infinite_scroll {
+  background-color: bisque;
+  display: flex;
+  height: 20vh;
+  overflow: scroll;
+}
+
+ul {
+  list-style: none;
+}
+
+.loadingSpinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

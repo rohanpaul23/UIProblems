@@ -1,0 +1,33 @@
+.productsAndCart {
+  background-color: bisque;
+  display: flex;
+  height: 20vh;
+  overflow: scroll;
+}
+.allProducts {
+  background-color: blueviolet;
+}
+
+ul {
+  list-style: none;
+}
+
+.liItem {
+  display: flex;
+  flex-direction: row;
+  background: blueviolet;
+  justify-content: space-between;
+}
+
+.cartSection {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItem {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  right: 1rem;
+}
